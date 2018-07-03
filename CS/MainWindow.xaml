@@ -81,13 +81,12 @@
                                     <ItemsControl.ItemTemplate>
                                         <DataTemplate>
                                             <dxc:LegendItemContainer
-                                                Orientation="Horizontal"
                                                 Margin="{DynamicResource {dxt:ChartControlThemeKey ResourceKey=LegendItemMargin}}"
                                                 Visibility="{Binding Path=Series.DisplayName, Converter={StaticResource seriesDisplayNameToLegendItemVisibilityConverter}}">
-                                                <CheckBox
+                                                <CheckBox DockPanel.Dock="Right"
                                                     Content="" 
                                                     IsChecked="{Binding Path=Series.Visible}"/>
-                                                <Grid
+                                                <Grid DockPanel.Dock="Left"
                                                     Width="{DynamicResource {dxt:ChartControlThemeKey ResourceKey=LegendMarkerWidth}}"
                                                     Height="{DynamicResource {dxt:ChartControlThemeKey ResourceKey=LegendMarkerHeight}}">
                                                     <Rectangle
