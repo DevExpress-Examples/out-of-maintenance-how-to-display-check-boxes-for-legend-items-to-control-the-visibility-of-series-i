@@ -2,7 +2,7 @@
 *Files to look at*:
 
 * [MainWindow.xaml](./CS/CustomLegend/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/CustomLegend/MainWindow.xaml))
-* [MainWindow.xaml.cs](./CS/CustomLegend/MainWindow.xaml.cs) (VB: [MainWindow.xaml](./VB/CustomLegend/MainWindow.xaml))
+* [MainWindow.xaml.cs](./CS/CustomLegend/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/CustomLegend/MainWindow.xaml.vb))
 <!-- default file list end -->
 # How to display check boxes for legend items to control the visibility of series in the unbound mode
 
