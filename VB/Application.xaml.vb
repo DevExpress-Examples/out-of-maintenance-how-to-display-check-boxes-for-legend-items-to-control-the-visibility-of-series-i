@@ -2,9 +2,9 @@
 
 Namespace CheckBoxesInLegendExample_UnboundMode
 
-    Partial Public Class App
-        Inherits Application
+	Partial Public Class App
+		Inherits Application
 
-    End Class
+	End Class
 
 End Namespace
